@@ -1,0 +1,53 @@
+//To string
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+//To pop
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+
+//to Push
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+
+//To Shift
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+
+//To Unshift
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
+
+//To get Length
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";
+
+//To Delete
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[0];
+
+//To Concat
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+const myChildren = myGirls.concat(myBoys);
+
+//Merging of 3 Arrays
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+const myChildren = arr1.concat(arr2, arr3);
+
+//To flatten the Array
+const myArr = [[1,2],[3,4],[5,6]];
+const newArr = myArr.flat();
+
+//To splice
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+
+//to slice
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1);
+
+
+// Follow me on Instagram @badshacoding for mor Programming related Posts.
